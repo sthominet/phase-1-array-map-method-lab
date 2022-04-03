@@ -1,7 +1,7 @@
 describe('index.js', function () {
   describe('titleCased()', function () {
     it('returns an array with title case tutorial names', function () {
-      expect(titleCased(tutorials)).to.have.all.members(
+      expect(titleCased()).to.have.all.members(
         [
           "What Does The This Keyword Mean?",
           "What Is The Constructor OO Pattern?",
